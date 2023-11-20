@@ -10,8 +10,7 @@
 <body>
     <div class="navigation">
         <div class="buttons">
-            <div class="head">
-                Safonova Olga
+            <div class="head"> Safonova Olga
                 <br>
                 P3207
             </div>
@@ -41,7 +40,7 @@
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
-                        <option value="5" selected>5</option>
+                        <option value="5">5</option>
                     </select>
                 </div>
                 <div class="selectors">
@@ -50,15 +49,15 @@
                             <option value="submit">submit</option>
                             <option value="clear">clear</option>
                         </select>
-                        <input id="submitButton" type="submit" name="submitButtons" value="do">
+                        <input type="submit" name="submitButtons" value="do">
                     </div>
                 </div>
             </form>
         </div>
         <div class="right">
-            <div class="graphic">
+            <div>
                 <svg id="graphic" height="300" width="300" xmlns="http://www.w3.org/2000/svg">
- 
+                    
                     <polygon id="triangle" class="figure" points="150,50 150,150 200,150"></polygon>
                     <polygon id="square" class="figure" points="150,250 150,150 250,150 250,250"></polygon>
                     <path id="round" class="figure" d="M 50 150 C 50 250, 150 250, 150 250 L 150 150 Z"></path>
@@ -98,16 +97,7 @@
             </div>
             <div class="resultDiv">
                 <table id="answers">
-                    <tr>
-                        <th scope="col">X</th>
-                        <th scope="col">Y</th>
-                        <th scope="col">R</th>
-                        <th scope="col">Time</th>
-                        <th scope="col">Result</th>
-                    </tr>
-                    <tbody>
-                        
-                    </tbody>
+                    <tr><td>X</td><td>Y</td> <td>R</td> <td>Time</td> <td>Proof</td></tr>
                 </table>
             </div>
         </div>
@@ -121,6 +111,5 @@
 <script type="text/javascript" src="subStr.js"></script>
 <script type="text/javascript" src="startScript.js"> </script>
 <script type="text/javascript" src="getResponse.js"></script>
-<script type="text/javascript" src="removeData.js"></script>
 
 </html>
